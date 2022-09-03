@@ -1,4 +1,3 @@
-<img src="https://github.com/ishandeveloper/Todo-React/blob/master/screenshots/1.PNG?raw=false" width="100%">
 
 # TODO REACT
 
@@ -6,7 +5,6 @@
 This is a simple, yet aesthetically pleasing Todo app created in react, designed by keeping Neomorphism design in mind.
 
 #### View Live Demo
-  <pre><center><a href="https://todo.ishandeveloper.com/"><b>todo.ishandeveloper.com</b></a></center></pre>
 
 ## Setup
 
