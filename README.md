@@ -26,12 +26,3 @@ npm install
 npm start
 ```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-##### Made with ♥ by <a href="https://github.com/ishandeveloper">ishandeveloper</a>
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/ishandeveloper)
