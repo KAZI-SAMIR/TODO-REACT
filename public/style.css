@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ffffff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.todo-table {
+    position: relative;
+    width: 75vw;
+    border-radius: 5px;
+    background: #f9f6f7;
+    box-shadow: 20px 20px 60px #cacaca,
+        -20px -20px 60px #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.todo-table .form:after {
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 20px;
+    background: #f9f6f7;
+    border: 0;
+    float: left;
+    outline: none;
+    font-size: 20px;
+    color: #989898;
+}
+
+button {
+    padding: 20px;
+    width: 25%;
+    float: left;
+    background: #eeeeee;
+    border: 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    transition: background 1s;
+}
+
+button:hover {
+    background: #cacaca;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    transition: all ease-in-out .05s;
+}
+
+li {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 1s;
+}
+
+li:hover {
+    text-decoration: line-through;
+    background: #eeeeee;
+}
+
+.info {
+    display: block;
+    padding: 25px;
+    padding-left: 30px;
+}
+
+h1 {
+    text-transform: capitalize;
+    display: inline;
+}
+
+.logo {
+    /* display: inline; */
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+
+    /* margin-left: 50px; */
+
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+a:hover {
+    color: red;
+    font-size: 1.5em;
+}
+
+.form {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .form {
+        display: inline-grid;
+    }
+
+    input[type="text"] {
+        width: 85%;
+        text-align: center;
+    }
+
+    button {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0px;
+    }
+}
